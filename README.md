@@ -27,3 +27,6 @@ The API key to be used to connect.
 
 #### `REMIT_URL` *defaults to `amqp://localhost`*
 The _RabbitMQ_ URL to connect to.
+
+#### `REMIT_PREFETCH` *defaults to `128`*
+_The prefetch limit to use for consumption.
