@@ -15,5 +15,8 @@ if (!isNaN(Number(process.env.REMIT_PREFETCH))) {
 
 var remit = Remit(opts)
 
+if (process.env.REMIT_INFLUXDB) {
+  require('remit-influxdb')(remit)
+}
 
 module.exports = remit
