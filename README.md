@@ -20,6 +20,8 @@ remit.emit('booted')
 
 On top of the usual exports, this library also exports `reqAsync` and `treqAsync`, allowing `v1.x.x` of _Remit_ to support promises without having to further wrap the library.
 
+It should be noted that the major versions of this library will follow _[remit](https://github.com/jpwilliams/remit)_'s versions, meaning `1.x.x` should be used for _remit_ `1.x.x` and so on.
+
 ## Environment variables
 
 #### `REMIT_NAME` *required*
