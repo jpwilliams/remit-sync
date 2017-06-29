@@ -10,5 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "remit": "^2.0.0-beta.3",
+    "remit-influxdb": "0.0.3"
   }
 }
